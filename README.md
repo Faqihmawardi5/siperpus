@@ -35,7 +35,8 @@ Proyek ini merupakan hasil dari **Praktik Kerja Magang (PKM)** Oleh Mahasiswa: *
 > **Tahun: 2025**
 
 ## Lihat Laporan Praktik Kerja Magang (PDF): 
-[Unduh Laporan PKM](https://drive.google.com/file/d/1kPZ3VGJYQFQh4sxEAtOxue1DKRbBrmH6/view?usp=drivesdk)
+
+unduh disini[Unduh Laporan PKM](https://drive.google.com/file/d/1kPZ3VGJYQFQh4sxEAtOxue1DKRbBrmH6/view?usp=drivesdk)
 ---
 
 > 📢 Gunakan aplikasi ini dengan bijak.  
