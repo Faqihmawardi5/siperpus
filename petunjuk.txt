@@ -1,6 +1,9 @@
-user        : b13_39029613
-password    : pepedan2018
-
-link panel  : cpanel.byethost13.com
-link web    : http://sipelibat-pepeda.byethost13.com
-  
+1. Extrak file zip
+2. Simpan folder di folder xampp/htdoct
+3. Ganti nama folder menjadi sipuskita
+4. buka localhost/phpmyadmin
+5. buat database dengan nama "perpus2"
+6. import file perpus2.sql
+7. buka localhost/sipuskita
+8. login Admin dengan username: "ade" dan password: "123"
+9. login Anggota dengan username: "zal" dan password: "123"
