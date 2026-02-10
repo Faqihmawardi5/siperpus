@@ -25,18 +25,6 @@ Aplikasi ini bertujuan untuk membantu proses digitalisasi layanan perpustakaan d
 
 ---
 
-## 🔐 Informasi Login Demo
-
-### 👨‍💼 Petugas Perpustakaan
-- **Username**: `faqihmawardi5`  
-- **Password**: `123`
-
-### 👨‍🎓 Anggota Perpustakaan
-- **Username**: `zal`  
-- **Password**: `123`
-
----
-
 ## 🏫 Tentang Proyek Magang
 
 Proyek ini merupakan hasil dari **Praktik Kerja Magang (PKM)** Oleh Mahasiswa: **Muh. Faqih Mawardi (NIM: 22.01.0.0051)**
