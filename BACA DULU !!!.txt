@@ -1,9 +1,74 @@
-1. Extrak file zip
-2. Simpan folder di folder xampp/htdoct
-3. Ganti nama folder menjadi sipuskita
-4. buka localhost/phpmyadmin
-5. buat database dengan nama "perpus2"
-6. import file perpus2.sql
-7. buka localhost/sipuskita
-8. login Admin dengan username: "ade" dan password: "123"
-9. login Anggota dengan username: "zal" dan password: "123"
+=================================================================
+📚 SISTEM INFORMASI PERPUSTAKAAN "PUSTAKA KITA"
+Desa Pepedan – Versi 1.0
+=================================================================
+
+⚠️ HARAP DIBACA SEBELUM MENJALANKAN APLIKASI ⚠️
+
+File ini berisi petunjuk instalasi dan akun login
+Sistem Informasi Perpustakaan "Pustaka Kita".
+
+-----------------------------------------------------------------
+📖 DESKRIPSI SINGKAT
+-----------------------------------------------------------------
+Sistem Informasi Perpustakaan "Pustaka Kita" merupakan aplikasi
+berbasis web yang dikembangkan dalam rangka Proyek Praktik Kerja
+Magang Mahasiswa Universitas Muhammadiyah Brebes.
+
+Aplikasi ini digunakan untuk membantu proses pengelolaan data
+perpustakaan Desa Pepedan secara digital.
+
+-----------------------------------------------------------------
+🛠 LANGKAH INSTALASI
+-----------------------------------------------------------------
+1. Extract file ZIP project
+2. Simpan folder hasil extract ke dalam folder:
+   xampp/htdocs
+3. Ubah nama folder menjadi:
+   sipuskita
+4. Buka browser dan akses:
+   http://localhost/phpmyadmin
+5. Buat database baru dengan nama:
+   perpus2
+6. Import file database:
+   perpus2.sql
+7. Jalankan aplikasi melalui browser:
+   http://localhost/sipuskita
+
+-----------------------------------------------------------------
+🔐 AKUN LOGIN (DEFAULT)
+-----------------------------------------------------------------
+Login Admin:
+- Username : ade
+- Password : 123
+
+Login Anggota:
+- Username : zal
+- Password : 123
+
+⚠️ Disarankan mengganti password setelah login pertama
+
+-----------------------------------------------------------------
+📂 CATATAN PENTING
+-----------------------------------------------------------------
+- Pastikan Apache dan MySQL pada XAMPP sudah berjalan
+- Gunakan browser terbaru untuk hasil tampilan terbaik
+- Aplikasi ini dibuat untuk keperluan edukasi dan magang
+
+-----------------------------------------------------------------
+👨‍🎓 INFORMASI PENGEMBANG
+-----------------------------------------------------------------
+Nama  : Muh. Faqih Mawardi
+NIM   : 22.01.0.0051
+Prodi : Teknik Informatika
+Universitas Muhammadiyah Brebes
+Tahun : 2025
+
+-----------------------------------------------------------------
+📢 PENUTUP
+-----------------------------------------------------------------
+Gunakan aplikasi ini dengan bijak.
+Semoga bermanfaat bagi pengembangan literasi digital dan
+pelayanan perpustakaan Desa Pepedan.
+
+=================================================================
