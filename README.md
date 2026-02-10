@@ -1,4 +1,4 @@
-# 📚 Sistem Informasi Perpustakaan **Pustaka Kita** – Desa Pepedan  
+# 📚 Sistem Informasi Perpustakaan **Pustaka Kita** – Desa Pepedan Versi 1.0
 ### 💼 Proyek Praktik Kerja Magang  
 ### 🧑‍🎓 Mahasiswa Universitas Muhammadiyah Brebes
 
