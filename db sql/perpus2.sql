@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Waktu pembuatan: 03 Jul 2025 pada 11.12
+-- Waktu pembuatan: 10 Feb 2026 pada 04.40
 -- Versi server: 10.4.27-MariaDB
 -- Versi PHP: 7.4.33
 
@@ -181,8 +181,6 @@ CREATE TABLE `tbl_login` (
 --
 
 INSERT INTO `tbl_login` (`id_login`, `anggota_id`, `user`, `pass`, `level`, `nama`, `tempat_lahir`, `tgl_lahir`, `jenkel`, `alamat`, `telepon`, `email`, `tgl_bergabung`, `foto`) VALUES
-(1, 'PPD.25.00001', 'anang', '202cb962ac59075b964b07152d234b70', 'Petugas', 'Anang', 'Bekasi', '1999-04-05', 'Laki-Laki', 'Ujung Harapan', '089618173609', 'fauzan1892@codekop.com', '2019-11-20', 'user_1567327491.png'),
-(2, 'PPD.25.002', 'fauzan', '202cb962ac59075b964b07152d234b70', 'Anggota', 'Fauzan', 'Bekasi', '1998-11-18', 'Laki-Laki', 'Bekasi Barat', '08123123185', 'fauzanfalah21@gmail.com', '2019-11-21', 'user_1589911243.png'),
 (4, 'PPD.25.003', 'faqihmawardi5', '202cb962ac59075b964b07152d234b70', 'Petugas', 'Muh.Faqih Mawardi', 'Brebes', '2003-10-16', 'Laki-Laki', 'Desa Karangjongkeng Kec. Tonjong', '085713428117', 'faqihmawardi5@yahoo.com', '2025-04-21', 'user_1745231489.png'),
 (6, 'PPD.25.006', 'indah', '202cb962ac59075b964b07152d234b70', 'Anggota', 'Indah Ikrimah', 'Brebes', '1994-05-16', 'Perempuan', 'Pepedan', '08123123123', 'indah@mail.go.id', '2025-06-01', 'user_1748761554.png'),
 (7, 'PPD.25.007', 'zal', '55043786413e72364161942d1bf9e836', 'Anggota', 'Zaltan', 'bekasi', '2018-05-06', 'Laki-Laki', 'pepdan', '0823232323', 'zal@gamail.com', '2025-06-01', 'user_1748761556.png'),
@@ -212,7 +210,8 @@ INSERT INTO `tbl_pengunjung` (`id`, `nama`, `alamat`, `keperluan`, `tanggal_kunj
 (1, 'Zaltan', 'Pepedan', 'Baca Buku', '2025-06-01', '16:26:33', '2025-06-01 09:26:33'),
 (2, 'Muhammad Faqih Mawardi', 'Karangjongkeng', 'ngoding', '2025-06-02', '15:48:22', '2025-06-02 08:48:22'),
 (9, 'Muhammad Faqih Mawardi', 'karangjongkeng', 'ngoding', '2025-06-08', '20:13:13', '2025-06-08 13:13:13'),
-(10, 'Yusril Ahzam Maghsyari', 'Karangjongkeng', 'Baca Buku', '2025-06-08', '20:17:10', '2025-06-08 13:17:10');
+(10, 'Yusril Ahzam Maghsyari', 'Karangjongkeng', 'Baca Buku', '2025-06-08', '20:17:10', '2025-06-08 13:17:10'),
+(11, 'Faqih', 'Karjo', 'Ngoding', '2026-01-27', '00:23:18', '2026-01-26 17:23:18');
 
 -- --------------------------------------------------------
 
@@ -366,7 +365,7 @@ ALTER TABLE `tbl_login`
 -- AUTO_INCREMENT untuk tabel `tbl_pengunjung`
 --
 ALTER TABLE `tbl_pengunjung`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT untuk tabel `tbl_pinjam`
