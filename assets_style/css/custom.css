@@ -1,0 +1,46 @@
+/* Card hover effect */
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Alert fade animation */
+.alert {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+/* Table header sticky */
+.table thead.sticky-top {
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* Scrollable table */
+.table-responsive {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+/* Placeholder & focus style for inputs */
+.form-control:focus {
+    border-color: #226bbf;
+    box-shadow: 0 0 5px rgba(34,107,191,0.5);
+}
+
+/* Responsive heading */
+h2 {
+    font-weight: 600;
+    color: #226bbf;
+}
+
+/* Button hover */
+.btn-primary:hover {
+    background-color: #1e3c72;
+    border-color: #1e3c72;
+}

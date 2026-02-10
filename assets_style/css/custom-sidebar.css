@@ -1,0 +1,80 @@
+/* ================= SIDEBAR ================= */
+
+/* Background sidebar */
+.main-sidebar {
+    background-color: #344460 !important;
+}
+
+/* Border putih pada foto user */
+.main-sidebar .user-panel .image img {
+    border: 2px solid #ffffff;
+    border-radius: none;      /* bulat */
+    padding: 2px;            /* jarak isi ke border */
+    background: transparent;
+}
+
+/* ================= HEADER MENU ================= */
+/* MENU PETUGAS / MENU ANGGOTA */
+.main-sidebar .sidebar-menu > li.header {
+    background: transparent !important;
+    color: #ffffff !important;
+    margin: 12px 12px 6px;
+    padding: 6px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+/* ================= MENU ITEM ================= */
+/* Menu utama (kecuali header) */
+.main-sidebar .sidebar-menu > li:not(.header) > a {
+    background-color: #005eff !important;
+    color: #ffffff !important;
+    border-radius: 6px;
+    margin: 5px 8px;
+
+    /* BORDER MENU */
+    border: 1.5px solid #ffffff;
+}
+
+/* Tetap sama saat hover & active */
+.main-sidebar .sidebar-menu > li.active > a,
+.main-sidebar .sidebar-menu > li:not(.header) > a:hover {
+    background-color: #005eff !important;
+    color: #ffffff !important;
+    border: 1.5px solid #ffffff;
+}
+
+/* Hilangkan background default AdminLTE */
+.main-sidebar .sidebar-menu > li.active {
+    background: transparent !important;
+}
+
+/* Icon status ONLINE */
+.main-sidebar .user-panel .fa-circle {
+    color: #00ff66 !important;
+}
+
+/* ================= SUBMENU ================= */
+.main-sidebar .treeview-menu {
+    background: transparent !important;
+    padding-left: 0;
+}
+
+.main-sidebar .treeview-menu > li > a {
+    color: #ffffff !important;
+    padding-left: 35px;
+}
+
+.main-sidebar .treeview-menu > li > a:hover,
+.main-sidebar .treeview-menu > li.active > a {
+    background: transparent !important;
+}
+
+/* ================= USER PANEL ================= */
+.main-sidebar .user-panel .info p,
+.main-sidebar .user-panel .info a,
+.main-sidebar .user-panel i {
+    color: #ffffff !important;
+}
