@@ -40,3 +40,9 @@ Proyek ini merupakan hasil dari **Praktik Kerja Magang (PKM)** Oleh Mahasiswa: *
 
 > 📢 Gunakan aplikasi ini dengan bijak.  
 > Semoga bermanfaat bagi kemajuan literasi digital dan pelayanan perpustakaan di **Desa Pepedan**.
+
+## ⚠️ Petunjuk Penting
+
+Sebelum menjalankan aplikasi ini, **WAJIB membaca file `BACA DULU.txt`**  
+yang berisi panduan instalasi, konfigurasi database, dan akun awal sistem.
+
